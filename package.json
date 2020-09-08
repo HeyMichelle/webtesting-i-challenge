@@ -4,7 +4,9 @@
   "description": "In this project, you will demonstrate proficiency by writing unit tests and production code to satisfy the _Minimum Viable Product_ described below.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "commit": "cz"
   },
   "repository": {
     "type": "git",
@@ -18,13 +20,21 @@
   },
   "homepage": "https://github.com/HeyMichelle/webtesting-i-challenge#readme",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "express": "^4.17.1",
     "nodemon": "^2.0.4"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "commitizen": "^4.2.1",
     "cors": "^2.8.5",
     "helmet": "^4.1.0",
-    "knex": "^0.21.5"
+    "knex": "^0.21.5",
+    "sqlite3": "^5.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
