@@ -6,6 +6,7 @@
   "scripts": {
     "server": "nodemon index.js",
     "start": "node index.js",
+    "test": "jest",
     "commit": "cz"
   },
   "repository": {
@@ -22,6 +23,7 @@
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
     "express": "^4.17.1",
+    "jest": "^26.4.2",
     "nodemon": "^2.0.4"
   },
   "dependencies": {
@@ -38,4 +40,3 @@
     }
   }
 }
- 
