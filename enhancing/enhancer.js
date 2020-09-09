@@ -14,7 +14,7 @@ function succeed(item) {
       enhancement: item.enhancement + 1 
     }
   }
-}
+} 
 
 function fail(item) {
   if (item.enhancement < 15) {
